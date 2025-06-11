@@ -2,13 +2,8 @@ import React from 'react';
 
 const PortfolioDownload = () => {
   const handleDownload = () => {
-    // Lógica para descargar el CV
-    const link = document.createElement('a');
-    link.href = '/path-to-your-cv.pdf';
-    link.download = 'TuNombre-CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const driveLink = 'https://drive.google.com/uc?export=download&id=1Sxd_4j7MH3XQ6k-KODljhjkPWEOXMeNd';
+    window.open(driveLink, '_blank');
   };
 
   return (
