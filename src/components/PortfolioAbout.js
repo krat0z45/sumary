@@ -79,20 +79,15 @@ const PortfolioAbout = () => {
           >
             <h3 className="text-2xl font-semibold text-white mb-4">¿Quién soy?</h3>
             <p className="text-blue-300 mb-6 leading-relaxed">
-              Soy un desarrollador full stack apasionado por crear experiencias digitales innovadoras y eficientes. 
-              Con más de 5 años de experiencia, me especializo en la construcción de aplicaciones web robustas y escalables 
-              utilizando tecnologías de vanguardia como React, Node.js y bases de datos modernas. Mi enfoque va más allá del código; 
-              me dedico a entender las necesidades del usuario para diseñar interfaces intuitivas y atractivas que realmente resuelvan problemas.
+              Ingeniero en desarrollo de software apasionado por la automatización industrial, la integración de dispositivos IoT y la optimización de procesos mediante tecnologías avanzadas. Con experiencia sólida en diagnóstico y mantenimiento de sistemas eléctricos e instrumentación, así como en la configuración de plataformas tecnológicas para entornos conectados.
             </p>
             <p className="text-blue-300 mb-6 leading-relaxed">
-              Mi trayectoria me ha permitido trabajar en diversos proyectos, desde startups ágiles hasta empresas consolidadas, 
-              siempre buscando la excelencia y la mejora continua. Me encanta aprender nuevas tecnologías y aplicar las mejores prácticas 
-              para entregar productos de alta calidad.
+              Me especializo en lenguajes como Python, C#, Java, Node.js y en protocolos de comunicación industriales como Modbus, MQTT, BACnet, Profibus y Fieldbus. Mi enfoque está orientado a resolver problemas reales mediante soluciones innovadoras, eficientes y escalables en entornos industriales.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-blue-200">
               <div>
                 <h4 className="font-medium text-white mb-2">Nombre:</h4>
-                <p>Diego Ricardo Esparza Cortes</p>
+                <p>Diego Ricardo Esparza Cortés</p>
               </div>
               <div>
                 <h4 className="font-medium text-white mb-2">Email:</h4>
@@ -104,7 +99,7 @@ const PortfolioAbout = () => {
               </div>
               <div>
                 <h4 className="font-medium text-white mb-2">Ubicación:</h4>
-                <p>Zacatecas, Mexico</p>
+                <p>Zacatecas, México</p>
               </div>
             </div>
           </div>

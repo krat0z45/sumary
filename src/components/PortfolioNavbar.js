@@ -49,6 +49,7 @@ const PortfolioNavbar = () => {
               <button onClick={() => scrollToSection('home')} className="px-3 py-2 rounded-md text-sm font-medium text-[#1e40af] hover:text-white transition-colors">Inicio</button>
               <button onClick={() => scrollToSection('about')} className="px-3 py-2 rounded-md text-sm font-medium text-blue-200 hover:text-[#1e40af] transition-colors">Sobre mí</button>
               <button onClick={() => scrollToSection('skills')} className="px-3 py-2 rounded-md text-sm font-medium text-blue-200 hover:text-[#1e40af] transition-colors">Logros</button>
+              <button onClick={() => scrollToSection('technical-skills')} className="px-3 py-2 rounded-md text-sm font-medium text-blue-200 hover:text-[#1e40af] transition-colors">Habilidades Tecnicas</button>
               <button onClick={() => scrollToSection('experience')} className="px-3 py-2 rounded-md text-sm font-medium text-blue-200 hover:text-[#1e40af] transition-colors">Experiencia</button>
               <button onClick={() => scrollToSection('contact')} className="px-3 py-2 rounded-md text-sm font-medium text-blue-200 hover:text-[#1e40af] transition-colors">Contacto</button>
             </div>

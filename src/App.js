@@ -6,6 +6,7 @@ import PortfolioSkills from './components/PortfolioSkills';
 import PortfolioExperience from './components/PortfolioExperience';
 import PortfolioContact from './components/PortfolioContact';
 import PortfolioDownload from './components/PortfolioDownload';
+import PortfolioTechnicalSkills from './components/PortfolioTechnicalSkills';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true); // Forzamos dark mode por defecto
@@ -30,6 +31,9 @@ const App = () => {
         <div id="skills">
           <PortfolioSkills />
         </div>
+        <div id="technical-skills">
+  <PortfolioTechnicalSkills />
+</div>
         <div id="experience">
           <PortfolioExperience />
         </div>
