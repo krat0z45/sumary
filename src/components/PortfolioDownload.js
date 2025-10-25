@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioDownload = () => {
   const handleDownload = () => {
-    const driveLink = 'https://drive.google.com/uc?export=download&id=1Sxd_4j7MH3XQ6k-KODljhjkPWEOXMeNd';
+    const driveLink = 'https://drive.google.com/file/d/1NfUt8LKpKGo9u_54DfZZ_WhD-lzgD5gx/view?usp=sharing';
     window.open(driveLink, '_blank');
   };
 
