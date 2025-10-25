@@ -68,7 +68,7 @@ const PortfolioHero = () => {
 </a>
 
 <a
-  href="https://drive.google.com/uc?export=download&id=1Sxd_4j7MH3XQ6k-KODljhjkPWEOXMeNd"
+  href="https://drive.google.com/file/d/1NfUt8LKpKGo9u_54DfZZ_WhD-lzgD5gx/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block px-8 py-3 border-2 border-[#1e40af] text-[#1e40af] rounded-full hover:bg-[#1e40af]/10 hover:shadow-[0_0_15px_3px_rgba(30,64,175,0.3)] transition-all duration-300"
