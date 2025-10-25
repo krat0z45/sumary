@@ -2,16 +2,40 @@ import React from 'react';
 
 const experiences = [
   {
-    title: 'Técnico de Servicio',
-    company: 'Minera Fresnillo PLC - Unidad Saucito',
-    period: '2024 - Actualidad',
-    description: 'Instalación y puesta en marcha de sistemas de aire acondicionado en equipos mineros. Implementación de programas de mantenimiento preventivo y correctivo, incluyendo diagnóstico y reparación de fallas eléctricas.'
+    title: 'Oficial Mecánico de Piso',
+    company: 'Javier Barrios',
+    period: 'Oct 2025 – Actualidad',
+    description: 'Mantenimiento industrial especializado durante paros programados en plantas mineras (Saucito, Juanicipio, Tiro General, San Julián). Reparación de molinos, chutes, cajones de alimentación, válvulas de cuchilla y desbridado de tuberías. Aplicación de cerámica epóxica en superficies críticas. Colaboración en equipos multidisciplinarios para puesta en marcha oportuna de equipos.'
   },
   {
-    title: 'Instrumentista Especialista',
-    company: 'Minera Fresnillo PLC - Unidad San Julián (Contratista Grupo Cavi)',
-    period: '2021 - 2023',
-    description: 'Mantenimiento preventivo y calibración de instrumentos industriales (temperatura, presión, nivel, flujo, pH, ORP, etc.). Uso avanzado de protocolos industriales como Fieldbus, Profibus y DeviceNet. Interpretación de diagramas eléctricos y neumáticos.'
+    title: 'Oficial Mecánico de Planta',
+    company: 'Koide',
+    period: 'Jul 2024 – Sep 2025',
+    description: 'Mantenimiento correctivo y preventivo en maquinaria industrial (biseladoras, cortadoras, prensas, tornos CNC). Intervenciones en sistemas hidráulicos, componentes mecánicos y tableros eléctricos con lógica PLC. Desmontaje completo de equipos para alineación y reemplazo de piezas. Reducción de tiempos de paro no planificados.'
+  },
+  {
+    title: 'Técnico de Servicio (Aires Mineros)',
+    company: 'Minera Fresnillo PLC – Unidad Saucito',
+    period: 'Jul 2024 – Sep 2025',
+    description: 'Instalación y puesta en marcha de +40 sistemas de aire acondicionado en entornos subterráneos y plantas. Ejecución de mantenimiento preventivo y correctivo. Diagnóstico y reparación de fallas eléctricas en minisplits y equipos paquete.'
+  },
+  {
+    title: 'Auxiliar Administrativo con enfoque en Soporte TI',
+    company: 'Business Corporation Maredga',
+    period: '2023 – 2024',
+    description: 'Instalación y configuración de videovigilancia IP. Soporte técnico a PCs, impresoras y periféricos. Gestión de redes LAN (routers, switches, IPs). Apoyo en seguridad industrial con LOTO en sistemas automatizados. Elaboración de bitácoras, inventarios y reportes técnicos.'
+  },
+  {
+    title: 'Instrumentista Oficial (Contratista)',
+    company: 'Minera Fresnillo PLC – Unidad San Julián (Grupo Cavi)',
+    period: '2021 – 2023',
+    description: 'Mantenimiento y calibración de instrumentos industriales (temperatura, presión, nivel, flujo, pH, ORP, densidad, HCN, pesómetros, etc.). Uso de protocolos Fieldbus, Profibus y DeviceNet. Interpretación avanzada de diagramas eléctricos, neumáticos e hidráulicos. Cobertura de áreas críticas: Trituración, Molienda, Flotación, Espesamiento, Reactivos y Generación de aire.'
+  },
+  {
+    title: 'Desarrollador Full Stack',
+    company: 'Proyectos Personales y Empresariales',
+    period: '2017 – Actualidad',
+    description: 'Desarrollo autónomo de aplicaciones web completas (frontend, backend, base de datos, despliegue). Tecnologías: React, Next.js, TailwindCSS, Node.js, Python (Django), PHP. Bases de datos: MySQL, PostgreSQL, SQL Server, MongoDB. Integración de Agentes de IA para asistentes inteligentes y automatización contextual. Uso de Git, GitHub y Vercel para CI/CD.'
   }
 ];
 
