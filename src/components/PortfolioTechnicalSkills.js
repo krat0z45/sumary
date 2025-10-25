@@ -1,55 +1,113 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const technicalSkills = [
+  // Frontend
   {
-    name: "Python",
+    name: "React / Next.js",
     level: 90,
-    description: "Desarrollo de scripts para automatización y análisis de datos industriales."
+    description: "Desarrollo de interfaces modernas, SSR, optimización SEO y PWAs."
   },
   {
-    name: "C#",
-    level: 75,
-    description: "Experiencia en aplicaciones industriales y controladores PLC."
-  },
-  {
-    name: "Java / Node.js",
-    level: 80,
-    description: "Desarrollo backend para sistemas IoT y monitoreo remoto."
-  },
-  {
-    name: "React / Node-RED",
+    name: "TailwindCSS / Bootstrap",
     level: 85,
-    description: "Interfaces web dinámicas y flujos de automatización rápida."
+    description: "Diseño responsivo y rápido con enfoque en experiencia de usuario."
   },
   {
-    name: "Modbus / MQTT / BACnet",
+    name: "HTML5 / CSS3 / JavaScript (ES6+)",
     level: 95,
-    description: "Comunicación entre dispositivos y plataformas IoT."
+    description: "Fundamentos sólidos para desarrollo web estándar y dinámico."
+  },
+
+  // Backend
+  {
+    name: "Node.js / Express",
+    level: 85,
+    description: "APIs RESTful, autenticación JWT, microservicios y middleware."
   },
   {
-    name: "Fieldbus / Profibus",
+    name: "Python (Django)",
+    level: 80,
+    description: "Desarrollo backend robusto con ORM, seguridad y escalabilidad."
+  },
+  {
+    name: "PHP",
+    level: 70,
+    description: "Mantenimiento y desarrollo de aplicaciones empresariales legacy."
+  },
+
+  // Bases de datos
+  {
+    name: "MySQL / PostgreSQL",
+    level: 85,
+    description: "Modelado relacional, consultas complejas y optimización de queries."
+  },
+  {
+    name: "MongoDB",
+    level: 80,
+    description: "Diseño de esquemas flexibles, agregaciones y operaciones en tiempo real."
+  },
+  {
+    name: "SQL Server",
+    level: 75,
+    description: "Integración con sistemas industriales y entornos Windows."
+  },
+
+  // DevOps & Herramientas
+  {
+    name: "Git / GitHub",
     level: 90,
-    description: "Integración de sensores y actuadores en entornos industriales."
+    description: "Control de versiones, flujos de trabajo colaborativos y CI/CD básico."
   },
   {
-    name: "MySQL / SQL Server / MongoDB",
+    name: "Vercel / Netlify",
     level: 80,
-    description: "Gestión y análisis de datos de sensores y equipos industriales."
+    description: "Despliegue automático de aplicaciones frontend y serverless functions."
   },
+
+  // Automatización & IoT Industrial
   {
-    name: "TIA Portal / RSLogix",
+    name: "Node-RED",
     level: 85,
-    description: "Programación y configuración de PLCs Siemens y Allen Bradley."
+    description: "Flujos visuales para IoT, integración con sensores y dashboards en tiempo real."
   },
   {
-    name: "Linux / IoT Platforms",
-    level: 80,
-    description: "Uso avanzado de sistemas operativos embebidos y plataformas IoT."
+    name: "Modbus / MQTT / REST API",
+    level: 95,
+    description: "Comunicación entre dispositivos industriales y plataformas web."
   },
   {
-    name: "Diagramas Eléctricos e Hidráulicos",
+    name: "Fieldbus / Profibus / DeviceNet",
+    level: 90,
+    description: "Protocolos industriales para instrumentación y control en minería."
+  },
+
+  // PLCs & Automatización
+  {
+    name: "TIA Portal / RSLogix / FactoryTalk",
     level: 85,
-    description: "Interpretación y diseño para instalaciones precisas en campo."
+    description: "Programación y diagnóstico de PLCs Siemens y Allen Bradley."
+  },
+  {
+    name: "C# / Java",
+    level: 75,
+    description: "Desarrollo de aplicaciones de escritorio y lógica industrial."
+  },
+
+  // Sistemas & Otros
+  {
+    name: "Linux / Windows",
+    level: 85,
+    description: "Administración de servidores, scripts bash y entornos de desarrollo."
+  },
+  {
+    name: "Diagramas Eléctricos / Neumáticos",
+    level: 85,
+    description: "Interpretación técnica para instalación y mantenimiento preciso."
+  },
+  {
+    name: "Integración de Agentes de IA",
+    level: 70,
+    description: "Asistentes inteligentes, automatización contextual y procesamiento de lenguaje."
   }
 ];
 
