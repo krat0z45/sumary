@@ -18,7 +18,7 @@ const PortfolioNavbar = () => {
           <div className="flex-shrink-0">
             
             <span className="text-xl font-bold text-white inline-flex items-center">
-  Love you
+  be your own world
   <span className="text-red-500 ml-2 animate-heartBeat">❤️</span>
 
   <style jsx global>{`
